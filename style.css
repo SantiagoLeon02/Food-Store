@@ -10,31 +10,37 @@ body{
 }
 
 header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5rem;
+    height: 6rem;
     background-color: #333;
-    color: #fff;
+    position: fixed;
+    z-index: 1000;
+
 }
 
 .logo a{
     text-decoration: none;
     color: #fff;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 0.6rem 2rem;
     margin: 1rem 1rem 1rem 1rem;
 }
 
 .menu-options ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .menu-options ul li a{
     color: #fff;
     text-align: center;
     text-decoration: none;
+    align-items: center;    
     padding: 0.6rem 2rem;
     border: 1px solid #fff;    
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -50,7 +56,7 @@ header{
 }
 
 .login a{
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 0.6rem 2rem;
     margin: 1rem 1rem 1rem 1rem;
     text-decoration: none;
     color: #fff;
@@ -64,6 +70,22 @@ header{
     color: #333;
     background-color: yellow;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* MAIN */
+
+.carousel-item img{
+    height: 30rem;
+}
+
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 
