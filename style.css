@@ -79,13 +79,20 @@ header{
     height: 30rem;
 }
 
-
 .productos{
+    justify-content: center;
+    align-items: center;
+}
+
+.foods-productos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    gap: 1.5rem;
 }
 
 
