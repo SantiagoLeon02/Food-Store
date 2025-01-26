@@ -18,6 +18,13 @@ header{
     color: #fff;
 }
 
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
 .menu-options ul{
     display: flex;
     list-style: none;
@@ -29,7 +36,7 @@ header{
     text-align: center;
     text-decoration: none;
     padding: 0.6rem 2rem;
-    border: 1px solid #000;    
+    border: 1px solid #fff;    
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -37,13 +44,26 @@ header{
     color:#333;
     background-color: #fff;
     border-radius: 0.5rem;
+    border: 1px solid #333;    
     text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .login a{
-    padding: 0.6rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
     text-decoration: none;
     color: #fff;
+    border-radius: 0.5rem;
+    border: 0.1rem solid yellow;
+    gap: 1.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login a:hover{
+    color: #333;
+    background-color: yellow;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 
