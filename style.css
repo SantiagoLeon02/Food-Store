@@ -95,4 +95,7 @@ header{
     gap: 1.5rem;
 }
 
+.card-img-top{
+    height: 22rem;
+}
 
